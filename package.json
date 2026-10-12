@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Rivanta - Premium Hotel Management System",
   "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
 
   "scripts": {
     "dev": "npm --prefix frontend run dev",
